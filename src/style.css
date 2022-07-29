@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #6c63ff;
+
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 h1 {
   font-size: 96px;
 }
@@ -15,10 +21,73 @@ p {
 h2 {
   font-size: 48px;
 }
-
 .email-link {
   display: flex;
   justify-content: center;
   color: #6c63ff;
   font-size: 28px;
+}
+
+.contact-me {
+  background: #6c63ff;
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me {
+  background: white;
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-about {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.launch-yoga {
+  background: #6c63ff;
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.launch-weather {
+  background: #6c63ff;
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.launch-yoga {
+  background: #6c63ff;
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
 }
