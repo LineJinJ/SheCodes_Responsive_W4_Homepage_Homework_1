@@ -28,6 +28,25 @@ h2 {
   font-size: 28px;
 }
 
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
 .contact-me {
   background: #6c63ff;
   color: white;
@@ -78,7 +97,7 @@ h2 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.launch-yoga {
+.launch-yogurt {
   background: #6c63ff;
   color: white;
   margin: 20px;
@@ -90,4 +109,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
